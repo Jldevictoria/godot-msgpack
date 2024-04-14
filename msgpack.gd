@@ -30,11 +30,11 @@
 #   static Dictionary encode(Variant value)
 #     Convert a value (number, string, array and dictionary) into their
 #     counterparts in messagepack. Returns dictionary with three fields:
-#     `result` which is the packed data (a PoolByteArray); `error` which is the
+#     `result` which is the packed data (a PackedByteArray); `error` which is the
 #     error code; and `error_string` which is a human readable error message
 #
-#   static Dictionary decode(PoolByteArray bytes)
-#     Convert a packed data (a PoolByteArray) into a value, the reverse of the
+#   static Dictionary decode(PackedByteArray bytes)
+#     Convert a packed data (a PackedByteArray) into a value, the reverse of the
 #     encode function. The return value is similar to the one in the encode
 #     method
 
